@@ -36,9 +36,9 @@
 
      <p>this list will not have bullet</p>
 
-     <ul class="non-bullet">
+     <ul>
       <li>food</li>
-      <li>cloth</li>
+      <li >cloth</li>
       <li>shelter</li>
      </ul>
 
@@ -52,7 +52,7 @@
 
      <h3>Reversed orderd list</h3>
 
-     <ol>
+     <ol reversed>
       <li>money</li>
       <li>fit</li>
       <li>peace</li>
@@ -61,29 +61,34 @@
 
      <h2>@Nav</h2>
 
-     <nav>
-      <div>I Am a Coder</div>
+     <nav class="navigation-container">
+      <div class="nav-brand">I Am a Coder</div>
+      <ul class="non-bullet nav-pills">
+
+       <li class="list-item-inline">
+         <a  class="link link-active" href="/">Home</a>
+       </li >
+
+       <li class="list-item-inline" >
+         <a class="link" href="/">Project</a>
+      </li>
+
+      <li class="list-item-inline">
+         <a class="link" href="/">Blog</a>
+      </li>
+
       <ul>
-      <li>
-         <a href="/">Home</a>
-      </li>
-      <li>
-         <a href="/">Project</a>
-      </li>
-      <li>
-         <a href="/">Blog</a>
-      </li>
-      <ul>
+
      </nav>
 
      <hr>
 
      <h2>@header</h2>
 
-     <header>
-      <img src="undraw_laravel_and_vue_59tp.png">
+     <header class="hero">
+      <img  class="hero-image" src="undraw_laravel_and_vue_59tp.png">
 
-      <h3>heading inside header</h3>
+      <h3 class="hero-heading">heading inside header</h3>
      </header>
 
      <hr>
