@@ -72,6 +72,12 @@ body{
  
 /**Navigation**/
 
+.nav-brand a:hover {
+    background-color:#ddd;
+    color:var(--dark-gray);
+    
+}
+
 .navigation-container{
 
     background-color: var(--primary-color);
